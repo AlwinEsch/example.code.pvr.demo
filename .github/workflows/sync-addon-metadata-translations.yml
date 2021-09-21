@@ -2,7 +2,7 @@ name: Sync addon metadata translations
 
 on:
   push:
-    branches: [ Matrix, Nexus ]
+    branches: [ master ]
     paths:
       - '**addon.xml'
       - '**resource.language.**strings.po'
